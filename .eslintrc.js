@@ -19,5 +19,15 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-extra-semi': 'off',
+    'react/jsx-no-useless-fragment': 'off',
+    'import/prefer-default-export': 'off',
+    'no-unused-vars': 'off',
+    'react/jsx-no-bind': 'off',
+    'react/prop-types': 'off',
+    'global-require': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
+    'react/jsx-filename-extension': 'off',
   },
 };
