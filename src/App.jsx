@@ -6,6 +6,7 @@ import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar';
 
 import Home from './pages/HomePage/Home';
+import { Footer } from './components';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
       </Switch>
+
+      <Footer />
     </Router>
   );
 }
