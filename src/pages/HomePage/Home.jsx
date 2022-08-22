@@ -8,6 +8,7 @@ import {
 } from './Data';
 
 import { InfoSection } from '../../components';
+import Pricing from '../../components/Pricing/Pricing';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <InfoSection {...HomeObjOne} />
       <InfoSection {...HomeObjTwo} />
       <InfoSection {...HomeObjThree} />
+      <Pricing />
       <InfoSection {...HomeObjFour} />
     </>
   );
