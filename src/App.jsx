@@ -10,11 +10,13 @@ import SignUp from './pages/SignUp/SignUp';
 
 import Home from './pages/HomePage/Home';
 import { Footer } from './components';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
 
       <Switch>
